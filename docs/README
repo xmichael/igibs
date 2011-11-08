@@ -1,0 +1,16 @@
+This is the IGIBS suite which consists of the following parts:
+
+ + a WSGI web service to provide an interface where:
+     i) The user uploads diverse datasets (different types of vectors or rasters in different projections ) as a single zip file
+     ii) the resulting properties of the included files are presented to the user where metadata and styling options are edited.
+     iii) The URL of an INSPIRE compliant View Service (VS) is presented to the user. This VS can be accessed either form the included WMS mapping application or a desktop GIS client (e.g. ArcGIS).
+     * Shibboleth support: The generated service is opionally protected with the SAML2 Web Browser SSO credentials
+ + A library providing bleeding edge functionality commonly missing from the GIS ecosystem, like the generation of INSPIRE compliant View Services / WMSs
+
+
+To install this web application locally one needs to:
+  1) configure the system by editting wsgi/resources/config.ini 
+  2) Install apache and configure as follows:
+     - set wsgi/igibs.wsgi as a WSGI application
+     - set www/htdocs as a document root for static pages
+

@@ -1,0 +1,46 @@
+body {
+    background-color: #FFFFFF;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: small;
+    padding: 5px 0 0;
+}
+
+#logo img {
+    margin-bottom: 0;
+    margin-left: 35%;
+    margin-top: 0;
+    padding: 0;
+    position: relative;
+    width: 20%;
+}
+
+#content {
+margin:10px auto;
+min-width:850px;
+width:70%;
+}
+
+/** results only **/
+#results {
+    margin-bottom: 10px;
+}
+
+div.previewmap {
+    width: 90%;
+    height: 99%;
+}
+/******************/
+
+/** initial screen only **/
+.formField {
+    padding: 5px 0 0;
+}
+
+#upload {
+    margin-top: 30px;
+}
+
+#submit {
+    margin-top: 20px;
+}
+/**********************/
